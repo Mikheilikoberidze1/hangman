@@ -122,7 +122,7 @@ useEffect(() => {
         </Grid>
       </Grid>
     </main>
-    <Container fixed style={{'justifyContent': 'center','alignItems': 'center','display': 'flex','marginTop': '150px'}}>
+    <Container fixed style={{'justifyContent': 'center','alignItems': 'center','display': 'flex','marginTop':'30px'}}>
     <img src={require(`./images/${changeimg}.jpg`)} alt="Hangman Logo" style={{height:'400px'}}/>
     </Container>
   </ThemeProvider>
