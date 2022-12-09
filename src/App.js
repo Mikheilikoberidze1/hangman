@@ -90,7 +90,7 @@ useEffect(() => {
           </Grid>
         </Grid>
       </main>
-      <Container fixed style={{'justifyContent': 'center','alignItems': 'center','display': 'flex','marginTop': '150px','flexDirection':'column'}}>
+      <Container fixed style={{'justifyContent': 'center','alignItems': 'center','display': 'flex','marginTop': '30px','flexDirection':'column'}}>
       <img src={require(`./images/${changeimg}.jpg`)} alt="Hangman Logo" style={{height:'400px'}}/>
       <Button style={{'marginTop':'15px'}} variant="contained" color="success" onClick={()=>{setMistakes([]);const word = getRandomWord();setWord(word.toLowerCase());console.log(word);}} >
       Restart
